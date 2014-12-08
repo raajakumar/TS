@@ -1,0 +1,43 @@
+cron:
+#- description: scrape xml
+#  url: /REMAINDER_MAIL
+#  schedule: every day 17:00
+#  timezone: Asia/Kolkata
+#
+#
+#- description: scrape xml
+#  url: /ABSENT_MAIL
+#  schedule: every day 23:58
+#  timezone: Asia/Kolkata
+#
+#- description: scrape xml
+#  url: /REPORT_MAIL
+#  schedule: every day 21:00
+#  timezone: Asia/Kolkata
+#
+#- description: scrape xml
+#  url: /YESTERDAY_REPORT_MAIL
+#  schedule: every day 04:00
+#  timezone: Asia/Kolkata
+#
+#- description: scrape xml
+#  url: /REPORT_MAIL_USER
+#  schedule: every day 18:00
+#  timezone: Asia/Kolkata
+#
+#- description: scrape xml
+#  url: /REPORT_MAIL_USER
+#  schedule: every day 19:00
+#  timezone: Asia/Kolkata
+#
+#- description: scrape xml
+#  url: /REPORT_MAIL_ADMIN
+#  schedule: every day 20:00
+#  timezone: Asia/Kolkata
+#
+#
+#- description: scrape xml
+#  url: /DROP_TEMP_TABLE
+#  schedule: every day 23:45
+#  timezone: Asia/Kolkata
+

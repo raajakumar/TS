@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="973cda15-de25-44f7-9372-df17ad4ad39d" name="Default" comment="" />
+    <ignored path="TS.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="TS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DB_ACCESS_RIGHTS_ACCESS_RIGHTS-SEARCH_UPDATE.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_ACCESS_RIGHTS-SEARCH_UPDATE.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="28" selection-start="4673" selection-end="4673" vertical-scroll-proportion="-1.9245284" vertical-offset="2295" max-vertical-offset="11373">
+              <folding>
+                <marker date="1416974686000" expanded="true" signature="736:797" placeholder="select * fro..USER_LOGIN_DETAILS..." />
+                <marker date="1416974686000" expanded="true" signature="1093:1137" placeholder="SELECT * FRO..ROLE_CREATION..." />
+                <marker date="1416974686000" expanded="true" signature="2351:2422" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416974686000" expanded="true" signature="2453:2530" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416974686000" expanded="true" signature="2941:2995" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974686000" expanded="true" signature="3156:3210" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974686000" expanded="true" signature="3376:3430" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974686000" expanded="true" signature="3601:3656" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974686000" expanded="true" signature="3811:3861" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+                <marker date="1416974686000" expanded="true" signature="5645:5711" placeholder="select ULD_I..USER_LOGIN_DETAILS..." />
+                <marker date="1416974686000" expanded="true" signature="7671:8167" placeholder="SELECT RC.RC..USER_LOGIN_DETAILS..." />
+                <marker date="1416974686000" expanded="true" signature="7999:8149" placeholder="select max(U..USER_ACCESS..." />
+                <marker date="1416974686000" expanded="true" signature="8252:8279" placeholder="SELECT * FRO..ROLE_CREATION..." />
+                <marker date="1416974686000" expanded="true" signature="9078:9157" placeholder="SELECT ULD_L..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416974686000" expanded="true" signature="9738:9802" placeholder="select * fro..USER_LOGIN_DETAILS..." />
+                <marker date="1416974686000" expanded="true" signature="10035:10258" placeholder="SELECT DATE_..USER_ACCESS..." />
+                <marker date="1416974686000" expanded="true" signature="10132:10237" placeholder="select MAX(U..USER_ACCESS..." />
+                <marker date="1416974686000" expanded="true" signature="11253:11324" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416974686000" expanded="true" signature="11355:11432" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416974686000" expanded="true" signature="11843:11897" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974686000" expanded="true" signature="12062:12116" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974686000" expanded="true" signature="12257:12307" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+                <marker date="1416974686000" expanded="true" signature="14280:14337" placeholder="SELECT * FRO..ROLE_CREATION..." />
+                <marker date="1416974686000" expanded="true" signature="22761:22880" placeholder="select * fro..BASIC_MENU_PROFILE..." />
+                <marker date="1416974686000" expanded="true" signature="27178:27233" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974686000" expanded="true" signature="30918:31090" placeholder="SELECT DISTI..MENU_PROFILE..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB_EMPLOYEE_SEARCH_UPDATE.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DB_EMPLOYEE_SEARCH_UPDATE.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="146" column="59" selection-start="9007" selection-end="9007" vertical-scroll-proportion="0.0" vertical-offset="2482" max-vertical-offset="3536">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="REPORT_MAIL.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/REPORT_MAIL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="126" column="39" selection-start="6126" selection-end="6126" vertical-scroll-proportion="0.0" vertical-offset="2109" max-vertical-offset="2414">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YESTERDAY_REPORT_MAIL.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YESTERDAY_REPORT_MAIL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="124" column="19" selection-start="5985" selection-end="5985" vertical-scroll-proportion="0.0" vertical-offset="1861" max-vertical-offset="2363">
+              <folding>
+                <marker date="1416980488000" expanded="true" signature="1190:1261" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416980488000" expanded="true" signature="1280:1357" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416980488000" expanded="true" signature="1468:1518" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+                <marker date="1416980488000" expanded="true" signature="2512:3254" placeholder="SELECT DISTI..USER_ADMIN_REPORT_DETAILS..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="REMAINDER_MAIL.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/REMAINDER_MAIL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="974" max-vertical-offset="1343">
+              <folding>
+                <marker date="1414241890000" expanded="true" signature="1246:1317" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1414241890000" expanded="true" signature="1336:1413" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1414241890000" expanded="true" signature="1702:1752" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB_ACCESS_RIGHTS_TERMINATE-SEARCH_UPDATE.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_TERMINATE-SEARCH_UPDATE.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="21" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="4680" max-vertical-offset="5321">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB_ACCESS_RIGHTS_USER_SEARCH_DETAIL.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_USER_SEARCH_DETAIL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="29" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DB_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="321" column="261" selection-start="13929" selection-end="13941" vertical-scroll-proportion="0.0" vertical-offset="5457" max-vertical-offset="8449">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FORM_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FORM_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="744" column="25" selection-start="39301" selection-end="39305" vertical-scroll-proportion="0.0" vertical-offset="12414" max-vertical-offset="29716">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB_EMPLOYEE_ENTRY.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DB_EMPLOYEE_ENTRY.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="66" selection-start="6813" selection-end="6819" vertical-scroll-proportion="0.0" vertical-offset="2397" max-vertical-offset="2907">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/DB_ACCESS_RIGHTS_USER_SEARCH_DETAIL.php" />
+        <option value="$PROJECT_DIR$/ABSENT_MAIL.php" />
+        <option value="$PROJECT_DIR$/DB_REPORT_ATTENDANCE.php" />
+        <option value="$PROJECT_DIR$/REPORT_MAIL_4AM.php" />
+        <option value="$PROJECT_DIR$/DB_DAILY_REPORTS_ADMIN_REPORT_ENTRY.php" />
+        <option value="$PROJECT_DIR$/COMMON_FUNCTIONS.php" />
+        <option value="$PROJECT_DIR$/DROP_TEMP_TABLE.php" />
+        <option value="$PROJECT_DIR$/REPORT_MAIL_ADMIN.php" />
+        <option value="$PROJECT_DIR$/REPORT_MAIL_USER.php" />
+        <option value="$PROJECT_DIR$/DB_DAILY_REPORTS_USER_REPORT_ENTRY.php" />
+        <option value="$PROJECT_DIR$/FORM_ACCESS_RIGHTS_USER_SEARCH_DETAIL.php" />
+        <option value="$PROJECT_DIR$/DB_EMAIL_EMAIL_TEMPLATE_ENTRY.php" />
+        <option value="$PROJECT_DIR$/FORM_EMAIL_EMAIL_TEMPLATE_ENTRY.php" />
+        <option value="$PROJECT_DIR$/DB_EMAIL_EMAIL_TEMPLATE_SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/FORM_REPORT_BANDWIDTH.php" />
+        <option value="$PROJECT_DIR$/MENU.php" />
+        <option value="$PROJECT_DIR$/FORM_REPORT_DOOR_ACCESS.php" />
+        <option value="$PROJECT_DIR$/FORM_EMPLOYEE_COMPANY_PROPERTY_VERIFICATION.php" />
+        <option value="$PROJECT_DIR$/FORM_REPORT_ATTENDANCE.php" />
+        <option value="$PROJECT_DIR$/FORM_WEEKLY_REPORT_ADMIN_WEEKLY_REPORT_ENTRY.php" />
+        <option value="$PROJECT_DIR$/DB_WEEKLY_REPORT_ADMIN_WEEKLY_REPORT_ENTRY.php" />
+        <option value="$PROJECT_DIR$/FORM_WEEKLY_REPORT_ADMIN_WEEKLY_SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/DB_REPORT_TICKLER_HISTORY.php" />
+        <option value="$PROJECT_DIR$/FORM_REPORT_TICKLER_HISTORY.php" />
+        <option value="$PROJECT_DIR$/cron.yaml" />
+        <option value="$PROJECT_DIR$/FORM_EMPLOYEE_ENTRY.php" />
+        <option value="$PROJECT_DIR$/DB_PROJECT_PROJECT_ENTRY_SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/FORM_PROJECT_PROJECT_ENTRY_SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/CONNECTION.php" />
+        <option value="$PROJECT_DIR$/CSS/StyleSheet.css" />
+        <option value="$PROJECT_DIR$/FORM_DAILY_REPORTS_USER_SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/FORM_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php" />
+        <option value="$PROJECT_DIR$/FORM_EMAIL_EMAIL_TEMPLATE_SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/FORM_ACCESS_RIGHTS_ACCESS_RIGHTS-SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/CONFIG.php" />
+        <option value="$PROJECT_DIR$/FORM_REPORT_REVENUE.php" />
+        <option value="$PROJECT_DIR$/DB_REPORT_REVENUE.php" />
+        <option value="$PROJECT_DIR$/DB_REPORT_DOOR_ACCESS.php" />
+        <option value="$PROJECT_DIR$/FORM_EMPLOYEE_SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/app.yaml" />
+        <option value="$PROJECT_DIR$/GET_USERSTAMP.php" />
+        <option value="$PROJECT_DIR$/COMMON.php" />
+        <option value="$PROJECT_DIR$/DB_EMPLOYEE_COMPANY_PROPERTY_VERIFICATION.php" />
+        <option value="$PROJECT_DIR$/DB_DAILY_REPORTS_USER_SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/DB_EMPLOYEE_ENTRY.php" />
+        <option value="$PROJECT_DIR$/DB_EMPLOYEE_SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/DB_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php" />
+        <option value="$PROJECT_DIR$/DB_ACCESS_RIGHTS_ACCESS_RIGHTS-SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/DB_ACCESS_RIGHTS_TERMINATE-SEARCH_UPDATE.php" />
+        <option value="$PROJECT_DIR$/REPORT_MAIL.php" />
+        <option value="$PROJECT_DIR$/YESTERDAY_REPORT_MAIL.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jquery" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SSOMENS-022\PhpstormProjects\TS" />
+      <recent name="C:\Users\SSOMENS-022\PhpstormProjects\TS\image" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="973cda15-de25-44f7-9372-df17ad4ad39d" name="Default" comment="" />
+      <created>1412931668903</created>
+      <updated>1412931668903</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3013595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30213463" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DB_MENU.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="49" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_EMPLOYEE_COMPANY_PROPERTY_VERIFICATION.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="39" selection-start="2021" selection-end="2021" vertical-scroll-proportion="0.0" vertical-offset="3594" max-vertical-offset="4114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_WEEKLY_REPORT_ADMIN_WEEKLY_REPORT_ENTRY.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="231" column="19" selection-start="9894" selection-end="9894" vertical-scroll-proportion="-151.03847" vertical-offset="0" max-vertical-offset="4029" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google-api-php-client-master/src/Google/IO/Curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_REPORT_TICKLER_HISTORY.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="42" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/JQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="23" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0" vertical-offset="3413" max-vertical-offset="9197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/StyleSheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="208" column="13" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.0" vertical-offset="3302" max-vertical-offset="25126" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_DAILY_REPORTS_USER_REPORT_ENTRY.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="64" selection-start="6696" selection-end="6696" vertical-scroll-proportion="-98.07692" vertical-offset="0" max-vertical-offset="11968" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_DAILY_REPORTS_USER_SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="477" column="43" selection-start="23293" selection-end="23309" vertical-scroll-proportion="-2.3921568" vertical-offset="7987" max-vertical-offset="16201" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_EMAIL_EMAIL_TEMPLATE_SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="263" selection-start="6167" selection-end="6167" vertical-scroll-proportion="0.0" vertical-offset="1938" max-vertical-offset="4845" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_EMAIL_EMAIL_TEMPLATE_ENTRY.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="13" selection-start="5879" selection-end="5879" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3893" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_EMAIL_EMAIL_TEMPLATE_ENTRY.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="63" selection-start="1605" selection-end="1632" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_ACCESS_RIGHTS_ACCESS_RIGHTS-SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="30" selection-start="4155" selection-end="4161" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="24293" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HEADER.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="1183" selection-end="1183" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONFIG.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="59" selection-start="315" selection-end="315" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REPORT_MAIL_ADMIN.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="13" selection-start="2620" selection-end="2916" vertical-scroll-proportion="-7.8461537" vertical-offset="867" max-vertical-offset="2261" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_WEEKLY_REPORT_ADMIN_WEEKLY_SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="47" selection-start="721" selection-end="721" vertical-scroll-proportion="91.53846" vertical-offset="2652" max-vertical-offset="4301" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_WEEKLY_REPORT_ADMIN_WEEKLY_REPORT_ENTRY.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="9" selection-start="954" selection-end="954" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_PROJECT_PROJECT_ENTRY_SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="5" selection-start="4053" selection-end="4053" vertical-scroll-proportion="0.125" vertical-offset="1785" max-vertical-offset="2771" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_PROJECT_PROJECT_ENTRY_SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="553" column="25" selection-start="24453" selection-end="24453" vertical-scroll-proportion="-58.192307" vertical-offset="7888" max-vertical-offset="9673" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_WEEKLY_REPORT_ADMIN_WEEKLY_SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="51" selection-start="673" selection-end="673" vertical-scroll-proportion="1.9615384" vertical-offset="255" max-vertical-offset="969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_EMPLOYEE_ENTRY.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="268" column="110" selection-start="14243" selection-end="14243" vertical-scroll-proportion="-0.65384614" vertical-offset="4539" max-vertical-offset="5372" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_REPORT_REVENUE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="996" column="0" selection-start="47181" selection-end="47181" vertical-scroll-proportion="-651.2308" vertical-offset="0" max-vertical-offset="17034" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_REPORT_REVENUE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="1386" selection-end="1386" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="3468" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_REPORT_ATTENDANCE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="373" column="14" selection-start="18858" selection-end="18858" vertical-scroll-proportion="-243.88461" vertical-offset="0" max-vertical-offset="6630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_REPORT_DOOR_ACCESS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="57" selection-start="3242" selection-end="3242" vertical-scroll-proportion="-37.923077" vertical-offset="0" max-vertical-offset="1547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_REPORT_TICKLER_HISTORY.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="61" selection-start="367" selection-end="367" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="4012" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_REPORT_DOOR_ACCESS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="898" selection-end="898" vertical-scroll-proportion="0.65384614" vertical-offset="153" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_EMPLOYEE_SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="267" selection-start="10731" selection-end="10731" vertical-scroll-proportion="0.0" vertical-offset="3111" max-vertical-offset="9622" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REPORT_MAIL_USER.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="36" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_SITE_MAINTENANCE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cron.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="26" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONNECTION.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="159" selection-end="159" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="0" selection-start="4777" selection-end="4777" vertical-scroll-proportion="0.0" vertical-offset="3026" max-vertical-offset="3400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MENU.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="10" selection-start="8735" selection-end="8735" vertical-scroll-proportion="-5.3461537" vertical-offset="3380" max-vertical-offset="3706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GET_USERSTAMP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COMMON_FUNCTIONS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="27" selection-start="2575" selection-end="2575" vertical-scroll-proportion="-52.307693" vertical-offset="0" max-vertical-offset="1632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COMMON.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="5" selection-start="8668" selection-end="8668" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="5508" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_EMPLOYEE_COMPANY_PROPERTY_VERIFICATION.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="54" selection-start="5966" selection-end="5966" vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="2635" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_DAILY_REPORTS_ADMIN_REPORT_ENTRY.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="35" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="5020" max-vertical-offset="6885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_DAILY_REPORTS_USER_SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="334" column="61" selection-start="14614" selection-end="14655" vertical-scroll-proportion="0.0" vertical-offset="5491" max-vertical-offset="6052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FORM_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="744" column="25" selection-start="39301" selection-end="39305" vertical-scroll-proportion="0.0" vertical-offset="12414" max-vertical-offset="29716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_EMPLOYEE_ENTRY.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="66" selection-start="6813" selection-end="6819" vertical-scroll-proportion="0.0" vertical-offset="2397" max-vertical-offset="2907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="321" column="261" selection-start="13929" selection-end="13941" vertical-scroll-proportion="0.0" vertical-offset="5457" max-vertical-offset="8449">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_TERMINATE-SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="4680" max-vertical-offset="5321">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_USER_SEARCH_DETAIL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_EMPLOYEE_SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="59" selection-start="9007" selection-end="9007" vertical-scroll-proportion="0.0" vertical-offset="2482" max-vertical-offset="3536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REPORT_MAIL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="39" selection-start="6126" selection-end="6126" vertical-scroll-proportion="0.0" vertical-offset="2109" max-vertical-offset="2414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YESTERDAY_REPORT_MAIL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="19" selection-start="5985" selection-end="5985" vertical-scroll-proportion="0.0" vertical-offset="1861" max-vertical-offset="2363">
+          <folding>
+            <marker date="1416980488000" expanded="true" signature="1190:1261" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416980488000" expanded="true" signature="1280:1357" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416980488000" expanded="true" signature="1468:1518" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+            <marker date="1416980488000" expanded="true" signature="2512:3254" placeholder="SELECT DISTI..USER_ADMIN_REPORT_DETAILS..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/REMAINDER_MAIL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="974" max-vertical-offset="1343">
+          <folding>
+            <marker date="1414241890000" expanded="true" signature="1246:1317" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1414241890000" expanded="true" signature="1336:1413" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1414241890000" expanded="true" signature="1702:1752" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_ACCESS_RIGHTS-SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="28" selection-start="4673" selection-end="4673" vertical-scroll-proportion="-1.9245284" vertical-offset="2295" max-vertical-offset="11373">
+          <folding>
+            <marker date="1416974686000" expanded="true" signature="736:797" placeholder="select * fro..USER_LOGIN_DETAILS..." />
+            <marker date="1416974686000" expanded="true" signature="1093:1137" placeholder="SELECT * FRO..ROLE_CREATION..." />
+            <marker date="1416974686000" expanded="true" signature="2351:2422" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416974686000" expanded="true" signature="2453:2530" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416974686000" expanded="true" signature="2941:2995" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974686000" expanded="true" signature="3156:3210" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974686000" expanded="true" signature="3376:3430" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974686000" expanded="true" signature="3601:3656" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974686000" expanded="true" signature="3811:3861" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+            <marker date="1416974686000" expanded="true" signature="5645:5711" placeholder="select ULD_I..USER_LOGIN_DETAILS..." />
+            <marker date="1416974686000" expanded="true" signature="7671:8167" placeholder="SELECT RC.RC..USER_LOGIN_DETAILS..." />
+            <marker date="1416974686000" expanded="true" signature="7999:8149" placeholder="select max(U..USER_ACCESS..." />
+            <marker date="1416974686000" expanded="true" signature="8252:8279" placeholder="SELECT * FRO..ROLE_CREATION..." />
+            <marker date="1416974686000" expanded="true" signature="9078:9157" placeholder="SELECT ULD_L..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416974686000" expanded="true" signature="9738:9802" placeholder="select * fro..USER_LOGIN_DETAILS..." />
+            <marker date="1416974686000" expanded="true" signature="10035:10258" placeholder="SELECT DATE_..USER_ACCESS..." />
+            <marker date="1416974686000" expanded="true" signature="10132:10237" placeholder="select MAX(U..USER_ACCESS..." />
+            <marker date="1416974686000" expanded="true" signature="11253:11324" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416974686000" expanded="true" signature="11355:11432" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416974686000" expanded="true" signature="11843:11897" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974686000" expanded="true" signature="12062:12116" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974686000" expanded="true" signature="12257:12307" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+            <marker date="1416974686000" expanded="true" signature="14280:14337" placeholder="SELECT * FRO..ROLE_CREATION..." />
+            <marker date="1416974686000" expanded="true" signature="22761:22880" placeholder="select * fro..BASIC_MENU_PROFILE..." />
+            <marker date="1416974686000" expanded="true" signature="27178:27233" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974686000" expanded="true" signature="30918:31090" placeholder="SELECT DISTI..MENU_PROFILE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

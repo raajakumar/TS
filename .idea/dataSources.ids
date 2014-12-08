@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="MySQL - TS_PHP@173.194.249.38" uuid="e982c9e3-034e-45d8-b981-ad0e4dea8a07">
+    <database-info product="MySQL" version="5.6.19" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.31 ( Revision: alexander.soklakov@oracle.com-20140520065950-groqzzbvxprqdmnz )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="TS_PHP"/>
+    <table name="ADMIN_WEEKLY_REPORT_DETAILS" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="AWRD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="AWRD_REPORT" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <column name="AWRD_DATE" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="AWRD_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="AWRD_ID"/>
+      <foreign-key name="ADMIN_WEEKLY_REPORT_DETAILS_ibfk_1" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="ATTENDANCE_CONFIGURATION" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="AC_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="CGN_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="AC_DATA" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="AC_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="AC_ID"/>
+      <foreign-key name="ATTENDANCE_CONFIGURATION_ibfk_1" columns="CGN_ID" ref-table="CONFIGURATION" ref-schema="" ref-catalog="TS_PHP" ref-columns="CGN_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="ATTENDANCE_CONFIGURATION_ibfk_2" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="BANDWIDTH_APRIL_2014" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="01/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="02/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="03/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="04/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="05/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="07/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="08/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="09/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="10/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="11/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="12/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="15/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="16/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="17/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="18/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="19/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="21/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="22/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="23/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="25/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="26/04/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="28/04/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="29/04/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="30/04/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="TOTAL" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_AUGUST_2013" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="01/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="02/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="03/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="05/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="06/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="07/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="08/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="09/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="10/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="12/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="13/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="14/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="17/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="19/08/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="20/08/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="21/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="22/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="23/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="24/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="26/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="27/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="28/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="29/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="30/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="31/08/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_AUGUST_2014" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="01/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="02/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="04/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="05/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="06/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="07/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="08/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="09/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="11/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="12/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="13/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="14/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="15/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="18/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="19/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="20/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="21/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="22/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="23/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="25/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="26/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="27/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="28/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="30/08/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TOTAL" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_DECEMBER_2013" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="02/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="03/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="04/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="05/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="06/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="07/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="08/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="09/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="10/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="11/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="12/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="13/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="14/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="16/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="17/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="18/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="19/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="20/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="21/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="23/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="24/12/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="25/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="26/12/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="27/12/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="28/12/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="30/12/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="31/12/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_FEB_2014" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="01/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="03/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="04/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="05/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="06/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="07/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="08/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="10/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="11/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="12/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="13/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="14/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="15/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="17/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="18/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="19/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="20/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="21/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="22/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="24/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="25/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="26/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="27/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="28/02/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TOTAL" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_JAN_2014" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="01/01/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="02/01/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="03/01/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="04/01/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="05/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="06/01/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="07/01/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="08/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="09/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="10/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="11/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="12/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="13/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="17/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="18/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="20/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="21/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="22/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="23/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="24/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="25/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="27/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="28/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="29/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="30/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="31/01/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TOTAL" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_JULY_2013" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="01/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="02/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="03/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="04/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="05/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="06/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="08/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="09/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="10/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="11/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="12/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="13/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="15/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="16/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="17/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="18/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="19/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="20/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="22/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="23/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="24/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="25/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="26/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="27/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="29/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="30/07/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="31/07/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="TOTAL" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_JULY_2014" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="01/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="02/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="03/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="04/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="05/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="07/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="08/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="09/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="10/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="11/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="12/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="14/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="15/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="16/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="17/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="18/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="19/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="21/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="22/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="23/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="24/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="25/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="28/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="30/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="31/07/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TOTAL" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_JUNE_2013" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="14/06/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="15/06/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="17/06/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="18/06/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="19/06/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="20/06/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="21/06/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="22/06/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="24/06/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="25/06/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="26/06/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="27/06/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="28/06/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="29/06/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="TOTAL" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_JUNE_2014" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="02/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="03/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="04/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="05/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="06/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="07/06/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="08/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="09/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="10/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="11/06/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="12/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="13/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="14/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="16/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="17/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="18/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="19/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="20/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="21/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="23/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="24/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="25/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="26/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="27/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="28/06/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="30/06/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="TOTAL" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_MARCH_2014" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="01/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="03/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="04/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="05/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="06/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="07/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="08/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="10/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="11/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="12/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="13/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="14/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="15/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="17/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="18/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="19/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="20/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="21/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="22/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="24/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="25/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="26/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="27/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="28/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="29/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="31/03/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TOTAL" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_MAY_2014" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="02/05/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="03/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="05/05/2014" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="06/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="07/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="08/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="09/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="10/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="12/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="13/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="14/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="15/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="16/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="17/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="19/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="20/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="21/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="22/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="23/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="24/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="26/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="27/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="28/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="29/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="30/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="31/05/2014" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TOTAL" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_NOVEMBER_2013" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="04/11/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="05/11/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="06/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="07/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="08/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="09/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="11/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="12/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="13/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="14/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="15/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="16/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="18/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="19/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="20/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="21/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="22/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="23/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="25/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="26/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="27/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="28/11/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="29/11/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="30/11/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_OCTOBER_2013" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="01/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="02/10/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="03/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="04/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="05/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="07/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="08/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="09/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="10/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="11/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="12/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="14/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="15/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="16/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="17/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="18/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="19/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="21/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="22/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="23/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="24/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="25/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="26/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="28/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="29/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="30/10/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="31/10/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BANDWIDTH_SEPTEMBER_2013" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMPLOYEE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="02/09/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="03/09/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="04/09/2013" sqlType="DECIMAL" length="28" precision="10" nullable="true" jdbcType="3"/>
+      <column name="05/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="06/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="07/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="10/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="11/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="12/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="13/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="14/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="16/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="17/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="18/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="19/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="20/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="21/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="23/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="24/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="25/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="26/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="27/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="28/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="30/09/2013" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="BASIC_MENU_PROFILE" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="BMP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="URC_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="MP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="BMP_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="BMP_ID"/>
+      <foreign-key name="BASIC_MENU_PROFILE_ibfk_1" columns="URC_ID" ref-table="USER_RIGHTS_CONFIGURATION" ref-schema="" ref-catalog="TS_PHP" ref-columns="URC_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="BASIC_MENU_PROFILE_ibfk_2" columns="MP_ID" ref-table="MENU_PROFILE" ref-schema="" ref-catalog="TS_PHP" ref-columns="MP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="BASIC_MENU_PROFILE_ibfk_3" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="BASIC_ROLE_PROFILE" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="BRP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="URC_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="BRP_BR_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="BRP_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="BRP_ID"/>
+      <foreign-key name="BASIC_ROLE_PROFILE_ibfk_1" columns="URC_ID" ref-table="USER_RIGHTS_CONFIGURATION" ref-schema="" ref-catalog="TS_PHP" ref-columns="URC_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="BASIC_ROLE_PROFILE_ibfk_2" columns="BRP_BR_ID" ref-table="USER_RIGHTS_CONFIGURATION" ref-schema="" ref-catalog="TS_PHP" ref-columns="URC_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="BASIC_ROLE_PROFILE_ibfk_3" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="CONFIGURATION" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="CGN_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="CNP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="CGN_TYPE" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="CGN_ID"/>
+      <foreign-key name="CONFIGURATION_ibfk_1" columns="CNP_ID" ref-table="CONFIGURATION_PROFILE" ref-schema="" ref-catalog="TS_PHP" ref-columns="CNP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="ATTENDANCE_CONFIGURATION_ibfk_1" table="ATTENDANCE_CONFIGURATION" schema="" catalog="TS_PHP" columns="CGN_ID"/>
+      <exported-key name="REPORT_CONFIGURATION_ibfk_1" table="REPORT_CONFIGURATION" schema="" catalog="TS_PHP" columns="CGN_ID"/>
+      <exported-key name="USER_ADMIN_REPORT_DETAILS_ibfk_1" table="USER_ADMIN_REPORT_DETAILS" schema="" catalog="TS_PHP" columns="URC_ID"/>
+      <exported-key name="USER_RIGHTS_CONFIGURATION_ibfk_1" table="USER_RIGHTS_CONFIGURATION" schema="" catalog="TS_PHP" columns="CGN_ID"/>
+      <index name="CGN_TYPE" unique="true" columns="CGN_TYPE"/>
+    </table>
+    <table name="CONFIGURATION_PROFILE" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="CNP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="CNP_DATA" sqlType="VARCHAR" length="25" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="CNP_ID"/>
+      <exported-key name="CONFIGURATION_ibfk_1" table="CONFIGURATION" schema="" catalog="TS_PHP" columns="CNP_ID"/>
+      <exported-key name="ERROR_MESSAGE_CONFIGURATION_ibfk_1" table="ERROR_MESSAGE_CONFIGURATION" schema="" catalog="TS_PHP" columns="CNP_ID"/>
+      <index name="CNP_DATA" unique="true" columns="CNP_DATA"/>
+    </table>
+    <table name="CONFIG_SQL_FORMAT" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="ID" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="CNP_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="CNP_DATA" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="CGN_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="CGN_DATA" sqlType="VARCHAR" length="54" precision="0" nullable="true" jdbcType="12"/>
+      <column name="DATA" sqlType="VARCHAR" length="87" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TP_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TP_TYPE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TTIP_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TTIP_DATA" sqlType="VARCHAR" length="57" precision="0" nullable="true" jdbcType="12"/>
+      <column name="EMC_CODE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="EMC_DATA" sqlType="VARCHAR" length="112" precision="0" nullable="true" jdbcType="12"/>
+      <column name="PD_DATA" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="PD_DESCRIPTION" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="USER_STAMP" sqlType="VARCHAR" length="64" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TIMESTAMP" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+    </table>
+    <table name="EMPLOYEE_DETAILS" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="EMP_FIRST_NAME" sqlType="CHAR" length="30" precision="0" nullable="false" jdbcType="1"/>
+      <column name="EMP_LAST_NAME" sqlType="CHAR" length="30" precision="0" nullable="false" jdbcType="1"/>
+      <column name="EMP_DOB" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91"/>
+      <column name="EMP_DESIGNATION" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12"/>
+      <column name="EMP_MOBILE_NUMBER" sqlType="VARCHAR" length="10" precision="0" nullable="false" jdbcType="12"/>
+      <column name="EMP_NEXT_KIN_NAME" sqlType="CHAR" length="30" precision="0" nullable="false" jdbcType="1"/>
+      <column name="EMP_RELATIONHOOD" sqlType="CHAR" length="30" precision="0" nullable="true" jdbcType="1"/>
+      <column name="EMP_ALT_MOBILE_NO" sqlType="VARCHAR" length="10" precision="0" nullable="true" jdbcType="12"/>
+      <column name="EMP_USERSTAMP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="EMP_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="EMP_ID"/>
+      <foreign-key name="EMPLOYEE_DETAILS_ibfk_1" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="EMPLOYEE_DETAILS_ibfk_2" columns="EMP_USERSTAMP_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="ERROR_MESSAGE_CONFIGURATION" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="EMC_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="CNP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="EMC_CODE" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="EMC_DATA" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="EMC_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="EMC_ID"/>
+      <foreign-key name="ERROR_MESSAGE_CONFIGURATION_ibfk_1" columns="CNP_ID" ref-table="CONFIGURATION_PROFILE" ref-schema="" ref-catalog="TS_PHP" ref-columns="CNP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="ERROR_MESSAGE_CONFIGURATION_ibfk_2" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="MENU_PROFILE" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="MP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="MP_MNAME" sqlType="VARCHAR" length="25" precision="0" nullable="false" jdbcType="12"/>
+      <column name="MP_MSUB" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="MP_MSUBMENU" sqlType="VARCHAR" length="60" precision="0" nullable="true" jdbcType="12"/>
+      <column name="MP_MFILENAME" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="MP_SCRIPT_FLAG" sqlType="VARCHAR" length="1" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="MP_ID"/>
+      <exported-key name="BASIC_MENU_PROFILE_ibfk_2" table="BASIC_MENU_PROFILE" schema="" catalog="TS_PHP" columns="MP_ID"/>
+      <exported-key name="USER_MENU_DETAILS_ibfk_1" table="USER_MENU_DETAILS" schema="" catalog="TS_PHP" columns="MP_ID"/>
+    </table>
+    <table name="ONDUTY_ENTRY_DETAILS" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="OED_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="OED_DATE" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91"/>
+      <column name="OED_DESCRIPTION" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="OED_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="OED_ID"/>
+      <foreign-key name="ONDUTY_ENTRY_DETAILS_ibfk_1" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="POST_AUDIT_HISTORY" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="POSTAH_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="POSTAP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="POSTAH_NO_OF_REC" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="PREASP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="PREAMP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="POSTAH_DURATION" sqlType="TIME" length="8" precision="0" nullable="false" jdbcType="92"/>
+      <column name="POSTAH_NO_OF_REJ" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="POSTAH_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="POSTAH_ID"/>
+      <foreign-key name="POST_AUDIT_HISTORY_ibfk_1" columns="POSTAP_ID" ref-table="POST_AUDIT_PROFILE" ref-schema="" ref-catalog="TS_PHP" ref-columns="POSTAP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="POST_AUDIT_HISTORY_ibfk_2" columns="PREASP_ID" ref-table="PRE_AUDIT_SUB_PROFILE" ref-schema="" ref-catalog="TS_PHP" ref-columns="PREASP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="POST_AUDIT_HISTORY_ibfk_3" columns="PREAMP_ID" ref-table="PRE_AUDIT_MAIN_PROFILE" ref-schema="" ref-catalog="TS_PHP" ref-columns="PREAMP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="POST_AUDIT_HISTORY_ibfk_4" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="POST_AUDIT_PROFILE" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="POSTAP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="POSTAP_DATA" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="POSTAP_ID"/>
+      <exported-key name="POST_AUDIT_HISTORY_ibfk_1" table="POST_AUDIT_HISTORY" schema="" catalog="TS_PHP" columns="POSTAP_ID"/>
+    </table>
+    <table name="PRE_AUDIT_HISTORY" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="PREAH_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="PREAMP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="PREAMP_PROJ_KEY" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="PREAMP_STATUS" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="PREAMP_SCDB_REC_BDUMP" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="PREAMP_SCDB_AREC" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="PREAMP_SQL_REC" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="PREAMP_PSTIME" sqlType="TIME" length="8" precision="0" nullable="false" jdbcType="92"/>
+      <column name="PREAMP_PETIME" sqlType="TIME" length="8" precision="0" nullable="false" jdbcType="92"/>
+      <column name="PREAMP_EXE_TIME" sqlType="TIME" length="8" precision="0" nullable="false" jdbcType="92"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="PREAMP_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="PREAH_ID"/>
+      <foreign-key name="PRE_AUDIT_HISTORY_ibfk_1" columns="PREAMP_ID" ref-table="PRE_AUDIT_MAIN_PROFILE" ref-schema="" ref-catalog="" ref-columns="PREAMP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="PRE_AUDIT_HISTORY_ibfk_2" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="PRE_AUDIT_MAIN_PROFILE" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="PREAMP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="PREAMP_DATA" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="PREAMP_ID"/>
+      <exported-key name="POST_AUDIT_HISTORY_ibfk_3" table="POST_AUDIT_HISTORY" schema="" catalog="TS_PHP" columns="PREAMP_ID"/>
+      <exported-key name="PRE_AUDIT_HISTORY_ibfk_1" table="PRE_AUDIT_HISTORY" schema="" catalog="TS_PHP" columns="PREAMP_ID"/>
+      <exported-key name="PRE_AUDIT_SUB_PROFILE_ibfk_1" table="PRE_AUDIT_SUB_PROFILE" schema="" catalog="TS_PHP" columns="PREAMP_ID"/>
+    </table>
+    <table name="PRE_AUDIT_SUB_PROFILE" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="PREASP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="PREAMP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="PREASP_DATA" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="PREASP_NO_OF_REC" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="PREASP_ID"/>
+      <foreign-key name="PRE_AUDIT_SUB_PROFILE_ibfk_1" columns="PREAMP_ID" ref-table="PRE_AUDIT_MAIN_PROFILE" ref-schema="" ref-catalog="TS_PHP" ref-columns="PREAMP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="POST_AUDIT_HISTORY_ibfk_2" table="POST_AUDIT_HISTORY" schema="" catalog="TS_PHP" columns="PREASP_ID"/>
+    </table>
+    <table name="PROJECT_DETAILS" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="PD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="PD_PROJECT_NAME" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="PD_PROJECT_DESCRIPTION" sqlType="VARCHAR" length="100" precision="0" nullable="false" jdbcType="12"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="PD_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="PD_ID"/>
+      <foreign-key name="PROJECT_DETAILS_ibfk_1" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="PD_PROJECT_NAME" unique="true" columns="PD_PROJECT_NAME"/>
+    </table>
+    <table name="PUBLIC_HOLIDAY" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="PH_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="PH_DESCRIPTION" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="PH_DATE" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91"/>
+      <primary-key name="PRIMARY" columns="PH_ID"/>
+    </table>
+    <table name="REPORTS_SCDB_FORMAT" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="siloId" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="timeStamp" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="Uname" sqlType="VARCHAR" length="65" precision="0" nullable="true" jdbcType="12"/>
+      <column name="Udate" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <column name="Ureport" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="Uid" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="userStamp" sqlType="VARCHAR" length="65" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="REPORT_CONFIGURATION" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="RC_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="CGN_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="RC_DATA" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="RC_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="RC_ID"/>
+      <foreign-key name="REPORT_CONFIGURATION_ibfk_1" columns="CGN_ID" ref-table="CONFIGURATION" ref-schema="" ref-catalog="TS_PHP" ref-columns="CGN_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="REPORT_CONFIGURATION_ibfk_2" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="ROLE_CREATION" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="RC_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="URC_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="RC_NAME" sqlType="VARCHAR" length="15" precision="0" nullable="false" jdbcType="12"/>
+      <column name="RC_USERSTAMP" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="RC_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="RC_ID"/>
+      <foreign-key name="ROLE_CREATION_ibfk_1" columns="URC_ID" ref-table="USER_RIGHTS_CONFIGURATION" ref-schema="" ref-catalog="TS_PHP" ref-columns="URC_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="USER_ACCESS_ibfk_1" table="USER_ACCESS" schema="" catalog="TS_PHP" columns="RC_ID"/>
+      <exported-key name="USER_MENU_DETAILS_ibfk_2" table="USER_MENU_DETAILS" schema="" catalog="TS_PHP" columns="RC_ID"/>
+      <index name="RC_NAME" unique="true" columns="RC_NAME"/>
+    </table>
+    <table name="TICKLER_HISTORY" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="TH_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="TP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="TTIP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="TH_OLD_VALUE" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <column name="TH_NEW_VALUE" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="TH_USERSTAMP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="TH_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="TH_ID"/>
+      <foreign-key name="TICKLER_HISTORY_ibfk_1" columns="TP_ID" ref-table="TICKLER_PROFILE" ref-schema="" ref-catalog="TS_PHP" ref-columns="TP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="TICKLER_HISTORY_ibfk_2" columns="TTIP_ID" ref-table="TICKLER_TABID_PROFILE" ref-schema="" ref-catalog="TS_PHP" ref-columns="TTIP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="TICKLER_HISTORY_ibfk_3" columns="TH_USERSTAMP_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="TICKLER_PROFILE" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="TP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="TP_TYPE" sqlType="CHAR" length="10" precision="0" nullable="false" jdbcType="1"/>
+      <primary-key name="PRIMARY" columns="TP_ID"/>
+      <exported-key name="TICKLER_HISTORY_ibfk_1" table="TICKLER_HISTORY" schema="" catalog="TS_PHP" columns="TP_ID"/>
+    </table>
+    <table name="TICKLER_TABID_PROFILE" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="TTIP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="TTIP_DATA" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="TTIP_ID"/>
+      <exported-key name="TICKLER_HISTORY_ibfk_2" table="TICKLER_HISTORY" schema="" catalog="TS_PHP" columns="TTIP_ID"/>
+    </table>
+    <table name="USERRIGHTS_SCDB_FORMAT" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="siloId" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="timeStamp" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <column name="Uname" sqlType="VARCHAR" length="70" precision="0" nullable="true" jdbcType="12"/>
+      <column name="userStamp" sqlType="VARCHAR" length="64" precision="0" nullable="true" jdbcType="12"/>
+      <column name="URecVer" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="UTerminate" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="UEDate" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="Rid" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="roles" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="UJDate" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
+      <column name="UReason" sqlType="VARCHAR" length="139" precision="0" nullable="true" jdbcType="12"/>
+      <column name="UJoin" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="Udate" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="Ureport" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="Uid" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="USER_ACCESS" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="UA_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="RC_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="UA_REC_VER" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="UA_JOIN_DATE" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91"/>
+      <column name="UA_JOIN" sqlType="CHAR" length="1" precision="0" nullable="true" jdbcType="1"/>
+      <column name="UA_END_DATE" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91"/>
+      <column name="UA_TERMINATE" sqlType="CHAR" length="1" precision="0" nullable="true" jdbcType="1"/>
+      <column name="UA_REASON" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="UA_USERSTAMP" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="UA_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="UA_ID"/>
+      <foreign-key name="USER_ACCESS_ibfk_1" columns="RC_ID" ref-table="ROLE_CREATION" ref-schema="" ref-catalog="TS_PHP" ref-columns="RC_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="USER_ACCESS_ibfk_2" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="USER_ADMIN_REPORT_DETAILS" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="UARD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="UARD_REPORT" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="UARD_REASON" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="UARD_DATE" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91"/>
+      <column name="URC_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="UARD_PERMISSION" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="UARD_ATTENDANCE" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="UARD_PDID" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="UARD_AM_SESSION" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="UARD_PM_SESSION" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="UARD_BANDWIDTH" sqlType="DECIMAL" length="6" precision="2" nullable="false" jdbcType="3"/>
+      <column name="UARD_USERSTAMP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="UARD_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <column name="ABSENT_FLAG" sqlType="CHAR" length="1" precision="0" nullable="true" jdbcType="1"/>
+      <primary-key name="PRIMARY" columns="UARD_ID"/>
+      <foreign-key name="USER_ADMIN_REPORT_DETAILS_ibfk_1" columns="URC_ID" ref-table="CONFIGURATION" ref-schema="" ref-catalog="TS_PHP" ref-columns="CGN_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="USER_ADMIN_REPORT_DETAILS_ibfk_2" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="USER_ADMIN_REPORT_DETAILS_ibfk_3" columns="UARD_USERSTAMP_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="USER_LOGIN_DETAILS" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="ULD_LOGINID" sqlType="VARCHAR" length="40" precision="0" nullable="false" jdbcType="12"/>
+      <column name="ULD_USERSTAMP" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="ULD_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="ULD_ID"/>
+      <exported-key name="ADMIN_WEEKLY_REPORT_DETAILS_ibfk_1" table="ADMIN_WEEKLY_REPORT_DETAILS" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="ATTENDANCE_CONFIGURATION_ibfk_2" table="ATTENDANCE_CONFIGURATION" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="BASIC_MENU_PROFILE_ibfk_3" table="BASIC_MENU_PROFILE" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="BASIC_ROLE_PROFILE_ibfk_3" table="BASIC_ROLE_PROFILE" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="EMPLOYEE_DETAILS_ibfk_1" table="EMPLOYEE_DETAILS" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="EMPLOYEE_DETAILS_ibfk_2" table="EMPLOYEE_DETAILS" schema="" catalog="TS_PHP" columns="EMP_USERSTAMP_ID"/>
+      <exported-key name="ERROR_MESSAGE_CONFIGURATION_ibfk_2" table="ERROR_MESSAGE_CONFIGURATION" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="ONDUTY_ENTRY_DETAILS_ibfk_1" table="ONDUTY_ENTRY_DETAILS" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="POST_AUDIT_HISTORY_ibfk_4" table="POST_AUDIT_HISTORY" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="PRE_AUDIT_HISTORY_ibfk_2" table="PRE_AUDIT_HISTORY" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="PROJECT_DETAILS_ibfk_1" table="PROJECT_DETAILS" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="REPORT_CONFIGURATION_ibfk_2" table="REPORT_CONFIGURATION" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="TICKLER_HISTORY_ibfk_3" table="TICKLER_HISTORY" schema="" catalog="TS_PHP" columns="TH_USERSTAMP_ID"/>
+      <exported-key name="USER_ACCESS_ibfk_2" table="USER_ACCESS" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="USER_ADMIN_REPORT_DETAILS_ibfk_2" table="USER_ADMIN_REPORT_DETAILS" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <exported-key name="USER_ADMIN_REPORT_DETAILS_ibfk_3" table="USER_ADMIN_REPORT_DETAILS" schema="" catalog="TS_PHP" columns="UARD_USERSTAMP_ID"/>
+      <exported-key name="USER_MENU_DETAILS_ibfk_3" table="USER_MENU_DETAILS" schema="" catalog="TS_PHP" columns="ULD_ID"/>
+      <index name="ULD_LOGINID" unique="true" columns="ULD_LOGINID"/>
+    </table>
+    <table name="USER_MENU_DETAILS" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="UMD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="MP_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="RC_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="ULD_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="UMD_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="UMD_ID"/>
+      <foreign-key name="USER_MENU_DETAILS_ibfk_1" columns="MP_ID" ref-table="MENU_PROFILE" ref-schema="" ref-catalog="TS_PHP" ref-columns="MP_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="USER_MENU_DETAILS_ibfk_2" columns="RC_ID" ref-table="ROLE_CREATION" ref-schema="" ref-catalog="TS_PHP" ref-columns="RC_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="USER_MENU_DETAILS_ibfk_3" columns="ULD_ID" ref-table="USER_LOGIN_DETAILS" ref-schema="" ref-catalog="TS_PHP" ref-columns="ULD_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="USER_RIGHTS_CONFIGURATION" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="URC_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="CGN_ID" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="URC_DATA" sqlType="TEXT" length="65535" precision="0" nullable="false" jdbcType="-1"/>
+      <column name="URC_USERSTAMP" sqlType="VARCHAR" length="50" precision="0" nullable="false" jdbcType="12"/>
+      <column name="URC_TIMESTAMP" sqlType="TIMESTAMP" length="19" precision="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="URC_ID"/>
+      <foreign-key name="USER_RIGHTS_CONFIGURATION_ibfk_1" columns="CGN_ID" ref-table="CONFIGURATION" ref-schema="" ref-catalog="TS_PHP" ref-columns="CGN_ID" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="BASIC_MENU_PROFILE_ibfk_1" table="BASIC_MENU_PROFILE" schema="" catalog="TS_PHP" columns="URC_ID"/>
+      <exported-key name="BASIC_ROLE_PROFILE_ibfk_1" table="BASIC_ROLE_PROFILE" schema="" catalog="TS_PHP" columns="URC_ID"/>
+      <exported-key name="BASIC_ROLE_PROFILE_ibfk_2" table="BASIC_ROLE_PROFILE" schema="" catalog="TS_PHP" columns="BRP_BR_ID"/>
+      <exported-key name="ROLE_CREATION_ibfk_1" table="ROLE_CREATION" schema="" catalog="TS_PHP" columns="URC_ID"/>
+    </table>
+    <table name="USER_RIGHTS_SQL_FORMAT" schema="" catalog="TS_PHP" type="TABLE">
+      <column name="ID" sqlType="INT" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="MP_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="MP_MNAME" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="MP_MSUB" sqlType="VARCHAR" length="57" precision="0" nullable="true" jdbcType="12"/>
+      <column name="MP_MSUBMENU" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="MP_MFILENAME" sqlType="VARCHAR" length="76" precision="0" nullable="true" jdbcType="12"/>
+      <column name="MP_SCRIPT_FLAG" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="PH_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="PH_DESCRIPTION" sqlType="VARCHAR" length="60" precision="0" nullable="true" jdbcType="12"/>
+      <column name="PH_DATE" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="RC_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="URC_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="BRP_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="BRP_BR_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="BMP_ID" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+      <column name="USERSTAMP" sqlType="VARCHAR" length="64" precision="0" nullable="true" jdbcType="12"/>
+      <column name="TIMESTAMP" sqlType="VARCHAR" length="50" precision="0" nullable="true" jdbcType="12"/>
+    </table>
+    <procedure name="SP_TS_MIG_BANDWIDTH_INSERT" schema="" catalog="TS_PHP" type="1">
+      <prototype>
+        <parameter name="SOURCESCHEMA" sqlType="VARCHAR" length="40" precision="40" nullable="true" jdbcType="12" type="1" index="1"/>
+        <parameter name="DESTINATIONSCHEMA" sqlType="VARCHAR" length="40" precision="40" nullable="true" jdbcType="12" type="1" index="2"/>
+      </prototype>
+    </procedure>
+    <procedure name="SP_TS_MIG_CONFIGURATION_INSERT" schema="" catalog="TS_PHP" type="1">
+      <prototype>
+        <parameter name="SOURCESCHEMA" sqlType="VARCHAR" length="40" precision="40" nullable="true" jdbcType="12" type="1" index="1"/>
+        <parameter name="DESTINATIONSCHEMA" sqlType="VARCHAR" length="40" precision="40" nullable="true" jdbcType="12" type="1" index="2"/>
+        <parameter name="MIGUSERSTAMP" sqlType="VARCHAR" length="50" precision="50" nullable="true" jdbcType="12" type="1" index="3"/>
+      </prototype>
+    </procedure>
+    <procedure name="SP_TS_MIG_REPORT_DETAILS_ABSENT_INSERT" schema="" catalog="TS_PHP" type="1">
+      <prototype>
+        <parameter name="SOURCESCHEMA" sqlType="VARCHAR" length="40" precision="40" nullable="true" jdbcType="12" type="1" index="1"/>
+        <parameter name="DESTINATIONSCHEMA" sqlType="VARCHAR" length="40" precision="40" nullable="true" jdbcType="12" type="1" index="2"/>
+        <parameter name="MIGUSERSTAMP" sqlType="VARCHAR" length="50" precision="50" nullable="true" jdbcType="12" type="1" index="3"/>
+      </prototype>
+    </procedure>
+    <procedure name="SP_TS_MIG_REPORT_DETAILS_HALFDAY_LEAVE_INSERT" schema="" catalog="TS_PHP" type="1">
+      <prototype>
+        <parameter name="DESTINATIONSCHEMA" sqlType="VARCHAR" length="50" precision="50" nullable="true" jdbcType="12" type="1" index="1"/>
+      </prototype>
+    </procedure>
+    <procedure name="SP_TS_MIG_REPORT_DETAILS_ONDUTY_INSERT" schema="" catalog="TS_PHP" type="1">
+      <prototype>
+        <parameter name="DESTINATIONSCHEMA" sqlType="VARCHAR" length="40" precision="40" nullable="true" jdbcType="12" type="1" index="1"/>
+      </prototype>
+    </procedure>
+    <procedure name="SP_TS_MIG_REPORT_DETAILS_PERMISSION_INSERT" schema="" catalog="TS_PHP" type="1">
+      <prototype>
+        <parameter name="DESTINATIONSCHEMA" sqlType="VARCHAR" length="40" precision="40" nullable="true" jdbcType="12" type="1" index="1"/>
+      </prototype>
+    </procedure>
+    <procedure name="SP_TS_MIG_REPORT_DETAILS_REPORT_INSERT" schema="" catalog="TS_PHP" type="1">
+      <prototype>
+        <parameter name="SOURCESCHEMA" sqlType="VARCHAR" length="40" precision="40" nullable="true" jdbcType="12" type="1" index="1"/>
+        <parameter name="DESTINATIONSCHEMA" sqlType="VARCHAR" length="40" precision="40" nullable="true" jdbcType="12" type="1" index="2"/>
+        <parameter name="PART_NO" sqlType="INT" length="10" precision="10" nullable="true" jdbcType="4" type="1" index="3"/>
+        <parameter name="MINIMUM_ID" sqlType="INT" length="10" precision="10" nullable="true" jdbcType="4" type="1" index="4"/>
+        <parameter name="MAXIMUM_ID" sqlType="INT" length="10" precision="10" nullable="true" jdbcType="4" type="1" index="5"/>
+        <parameter name="MIGUSERSTAMP" sqlType="VARCHAR" length="50" precision="50" nullable="true" jdbcType="12" type="1" index="6"/>
+      </prototype>
+    </procedure>
+    <procedure name="SP_TS_MIG_USER_RIGHTS_INSERT" schema="" catalog="TS_PHP" type="1">
+      <prototype>
+        <parameter name="SOURCESCHEMA" sqlType="VARCHAR" length="50" precision="50" nullable="true" jdbcType="12" type="1" index="1"/>
+        <parameter name="DESTINATIONSCHEMA" sqlType="VARCHAR" length="50" precision="50" nullable="true" jdbcType="12" type="1" index="2"/>
+        <parameter name="USERSTAMP" sqlType="VARCHAR" length="50" precision="50" nullable="true" jdbcType="12" type="1" index="3"/>
+      </prototype>
+    </procedure>
+    <procedure name="SP_TS_POST_AUDIT_CREATE_INSERT" schema="" catalog="TS_PHP" type="1">
+      <prototype>
+        <parameter name="DESTINATIONSCHEMA" sqlType="VARCHAR" length="50" precision="50" nullable="true" jdbcType="12" type="1" index="1"/>
+      </prototype>
+    </procedure>
+  </data-source>
+</component>
