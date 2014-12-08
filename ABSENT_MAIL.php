@@ -48,6 +48,7 @@ if($Current_day!='Sunday'){
         $sadmin_name = substr($sadmin, 0, strpos($sadmin, '.'));
         $spladminname=$admin_name.'/'.$sadmin_name;
             $spladminname=strtoupper($spladminname);
+            
         $select_data="select * from $temp_table_name ORDER BY EMPLOYEE_NAME ";
         $select_data_rs=mysqli_query($con,$select_data);
         $row=mysqli_num_rows($select_data_rs);
