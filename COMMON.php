@@ -5,7 +5,7 @@ include "GET_USERSTAMP.php";
 $USERSTAMP=$UserStamp;
 date_default_timezone_set('Asia/Kolkata');
 global $con;
-
+Is/*somens software developement private lmited....*?
 
 function getTimezone()
 {
