@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="973cda15-de25-44f7-9372-df17ad4ad39d" name="Default" comment="" />
+    <list default="true" id="973cda15-de25-44f7-9372-df17ad4ad39d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ABSENT_MAIL.php" afterPath="$PROJECT_DIR$/ABSENT_MAIL.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TS.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DB_ACCESS_RIGHTS_ACCESS_RIGHTS-SEARCH_UPDATE.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DB_ACCESS_RIGHTS_ACCESS_RIGHTS-SEARCH_UPDATE.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_ACCESS_RIGHTS-SEARCH_UPDATE.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="28" selection-start="4673" selection-end="4673" vertical-scroll-proportion="-1.9245284" vertical-offset="2295" max-vertical-offset="11373">
+            <state line="105" column="28" selection-start="4673" selection-end="4673" vertical-scroll-proportion="348.34616" vertical-offset="10842" max-vertical-offset="11373">
               <folding>
                 <marker date="1416974686000" expanded="true" signature="736:797" placeholder="select * fro..USER_LOGIN_DETAILS..." />
                 <marker date="1416974686000" expanded="true" signature="1093:1137" placeholder="SELECT * FRO..ROLE_CREATION..." />
@@ -59,11 +62,34 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ABSENT_MAIL.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ABSENT_MAIL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="4" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.8811189" vertical-offset="1346" max-vertical-offset="1717">
+              <folding>
+                <marker date="1418014931201" expanded="true" signature="1339:1410" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1418014931201" expanded="true" signature="1429:1506" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1418014931201" expanded="true" signature="1795:1845" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+                <marker date="1418014931201" expanded="true" signature="2729:2782" placeholder="select * fro..$temp_table_name ORDER..." />
+                <marker date="1418014931201" expanded="true" signature="4225:4252" placeholder="DROP TABLE $..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DB_EMPLOYEE_SEARCH_UPDATE.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB_EMPLOYEE_SEARCH_UPDATE.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="59" selection-start="9007" selection-end="9007" vertical-scroll-proportion="0.0" vertical-offset="2482" max-vertical-offset="3536">
-              <folding />
+            <state line="146" column="59" selection-start="9007" selection-end="9007" vertical-scroll-proportion="3.2692308" vertical-offset="2482" max-vertical-offset="3451">
+              <folding>
+                <marker date="1416914096000" expanded="true" signature="1059:1149" placeholder="SELECT DISTI..EMPLOYEE_DETAILS..." />
+                <marker date="1416914096000" expanded="true" signature="2102:2864" placeholder="SELECT DISTI..EMPLOYEE_DETAILS..." />
+                <marker date="1416914096000" expanded="true" signature="8402:8473" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416914096000" expanded="true" signature="8504:8581" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416914096000" expanded="true" signature="9222:9273" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+                <marker date="1416914096000" expanded="true" signature="9553:9673" placeholder="select * fro..EMPLOYEE_DETAILS..." />
+                <marker date="1416914096000" expanded="true" signature="11423:11517" placeholder="SELECT DISTI..ERROR_MESSAGE_CONFIGURATION..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +97,13 @@
       <file leaf-file-name="REPORT_MAIL.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/REPORT_MAIL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="39" selection-start="6126" selection-end="6126" vertical-scroll-proportion="0.0" vertical-offset="2109" max-vertical-offset="2414">
-              <folding />
+            <state line="126" column="39" selection-start="6126" selection-end="6126" vertical-scroll-proportion="-1.2692307" vertical-offset="2109" max-vertical-offset="2414">
+              <folding>
+                <marker date="1416980398000" expanded="true" signature="1281:1352" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416980398000" expanded="true" signature="1371:1448" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416980398000" expanded="true" signature="1559:1609" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+                <marker date="1416980398000" expanded="true" signature="2590:3319" placeholder="SELECT DISTI..USER_ADMIN_REPORT_DETAILS..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +111,7 @@
       <file leaf-file-name="YESTERDAY_REPORT_MAIL.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YESTERDAY_REPORT_MAIL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="19" selection-start="5985" selection-end="5985" vertical-scroll-proportion="0.0" vertical-offset="1861" max-vertical-offset="2363">
+            <state line="124" column="19" selection-start="5985" selection-end="5985" vertical-scroll-proportion="-64.84615" vertical-offset="422" max-vertical-offset="2363">
               <folding>
                 <marker date="1416980488000" expanded="true" signature="1190:1261" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
                 <marker date="1416980488000" expanded="true" signature="1280:1357" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
@@ -94,7 +125,7 @@
       <file leaf-file-name="REMAINDER_MAIL.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/REMAINDER_MAIL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="974" max-vertical-offset="1343">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.6923075" vertical-offset="148" max-vertical-offset="1343">
               <folding>
                 <marker date="1414241890000" expanded="true" signature="1246:1317" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
                 <marker date="1414241890000" expanded="true" signature="1336:1413" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
@@ -107,8 +138,24 @@
       <file leaf-file-name="DB_ACCESS_RIGHTS_TERMINATE-SEARCH_UPDATE.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_TERMINATE-SEARCH_UPDATE.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="4680" max-vertical-offset="5321">
-              <folding />
+            <state line="12" column="21" selection-start="527" selection-end="527" vertical-scroll-proportion="172.15384" vertical-offset="4680" max-vertical-offset="5321">
+              <folding>
+                <marker date="1416974736000" expanded="true" signature="2279:2498" placeholder="SELECT DATE_..USER_ACCESS..." />
+                <marker date="1416974736000" expanded="true" signature="2376:2479" placeholder="select MAX(U..USER_ACCESS..." />
+                <marker date="1416974736000" expanded="true" signature="2911:3132" placeholder="SELECT DATE_..USER_ACCESS..." />
+                <marker date="1416974736000" expanded="true" signature="3006:3113" placeholder="select MAX(U..USER_ACCESS..." />
+                <marker date="1416974736000" expanded="true" signature="4948:5019" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416974736000" expanded="true" signature="5050:5127" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+                <marker date="1416974736000" expanded="true" signature="5538:5592" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974736000" expanded="true" signature="5757:5811" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974736000" expanded="true" signature="5977:6031" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974736000" expanded="true" signature="6533:6598" placeholder="select ULD_I..USER_LOGIN_DETAILS..." />
+                <marker date="1416974736000" expanded="true" signature="6764:6819" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974736000" expanded="true" signature="7006:7056" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+                <marker date="1416974736000" expanded="true" signature="9209:9263" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+                <marker date="1416974736000" expanded="true" signature="9765:9830" placeholder="select ULD_I..USER_LOGIN_DETAILS..." />
+                <marker date="1416974736000" expanded="true" signature="9996:10051" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,16 +172,7 @@
       <file leaf-file-name="DB_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="321" column="261" selection-start="13929" selection-end="13941" vertical-scroll-proportion="0.0" vertical-offset="5457" max-vertical-offset="8449">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FORM_DAILY_REPORTS_ADMIN_SEARCH_UPDATE_DELETE.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="744" column="25" selection-start="39301" selection-end="39305" vertical-scroll-proportion="0.0" vertical-offset="12414" max-vertical-offset="29716">
+            <state line="321" column="261" selection-start="13929" selection-end="13941" vertical-scroll-proportion="-0.0" vertical-offset="5457" max-vertical-offset="8449">
               <folding />
             </state>
           </provider>
@@ -143,7 +181,7 @@
       <file leaf-file-name="DB_EMPLOYEE_ENTRY.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DB_EMPLOYEE_ENTRY.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="66" selection-start="6813" selection-end="6819" vertical-scroll-proportion="0.0" vertical-offset="2397" max-vertical-offset="2907">
+            <state line="162" column="5" selection-start="7478" selection-end="7478" vertical-scroll-proportion="-8.884615" vertical-offset="2421" max-vertical-offset="2805">
               <folding />
             </state>
           </provider>
@@ -163,7 +201,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/DB_ACCESS_RIGHTS_USER_SEARCH_DETAIL.php" />
-        <option value="$PROJECT_DIR$/ABSENT_MAIL.php" />
         <option value="$PROJECT_DIR$/DB_REPORT_ATTENDANCE.php" />
         <option value="$PROJECT_DIR$/REPORT_MAIL_4AM.php" />
         <option value="$PROJECT_DIR$/DB_DAILY_REPORTS_ADMIN_REPORT_ENTRY.php" />
@@ -213,6 +250,7 @@
         <option value="$PROJECT_DIR$/DB_ACCESS_RIGHTS_TERMINATE-SEARCH_UPDATE.php" />
         <option value="$PROJECT_DIR$/REPORT_MAIL.php" />
         <option value="$PROJECT_DIR$/YESTERDAY_REPORT_MAIL.php" />
+        <option value="$PROJECT_DIR$/ABSENT_MAIL.php" />
       </list>
     </option>
   </component>
@@ -343,18 +381,24 @@
       <created>1412931668903</created>
       <updated>1412931668903</updated>
     </task>
+    <task id="LOCAL-00001" summary="Welcome1">
+      <created>1418014630416</created>
+      <updated>1418014630416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3013595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3013595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -382,6 +426,8 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <MESSAGE value="Welcome1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Welcome1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -389,11 +435,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DB_MENU.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="49" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1258" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FORM_EMPLOYEE_COMPANY_PROPERTY_VERIFICATION.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="39" selection-start="2021" selection-end="2021" vertical-scroll-proportion="0.0" vertical-offset="3594" max-vertical-offset="4114" />
@@ -601,10 +642,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB_EMPLOYEE_ENTRY.php">
+    <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_USER_SEARCH_DETAIL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="66" selection-start="6813" selection-end="6819" vertical-scroll-proportion="0.0" vertical-offset="2397" max-vertical-offset="2907">
+        <state line="8" column="29" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="680">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_EMPLOYEE_SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="59" selection-start="9007" selection-end="9007" vertical-scroll-proportion="3.2692308" vertical-offset="2482" max-vertical-offset="3451">
+          <folding>
+            <marker date="1416914096000" expanded="true" signature="1059:1149" placeholder="SELECT DISTI..EMPLOYEE_DETAILS..." />
+            <marker date="1416914096000" expanded="true" signature="2102:2864" placeholder="SELECT DISTI..EMPLOYEE_DETAILS..." />
+            <marker date="1416914096000" expanded="true" signature="8402:8473" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416914096000" expanded="true" signature="8504:8581" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416914096000" expanded="true" signature="9222:9273" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+            <marker date="1416914096000" expanded="true" signature="9553:9673" placeholder="select * fro..EMPLOYEE_DETAILS..." />
+            <marker date="1416914096000" expanded="true" signature="11423:11517" placeholder="SELECT DISTI..ERROR_MESSAGE_CONFIGURATION..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,37 +671,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_TERMINATE-SEARCH_UPDATE.php">
+    <entry file="file://$PROJECT_DIR$/DB_EMPLOYEE_ENTRY.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="4680" max-vertical-offset="5321">
+        <state line="162" column="5" selection-start="7478" selection-end="7478" vertical-scroll-proportion="-8.884615" vertical-offset="2421" max-vertical-offset="2805">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_USER_SEARCH_DETAIL.php">
+    <entry file="file://$PROJECT_DIR$/REMAINDER_MAIL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DB_EMPLOYEE_SEARCH_UPDATE.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="59" selection-start="9007" selection-end="9007" vertical-scroll-proportion="0.0" vertical-offset="2482" max-vertical-offset="3536">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.6923075" vertical-offset="148" max-vertical-offset="1343">
+          <folding>
+            <marker date="1414241890000" expanded="true" signature="1246:1317" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1414241890000" expanded="true" signature="1336:1413" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1414241890000" expanded="true" signature="1702:1752" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/REPORT_MAIL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="39" selection-start="6126" selection-end="6126" vertical-scroll-proportion="0.0" vertical-offset="2109" max-vertical-offset="2414">
-          <folding />
+        <state line="126" column="39" selection-start="6126" selection-end="6126" vertical-scroll-proportion="-1.2692307" vertical-offset="2109" max-vertical-offset="2414">
+          <folding>
+            <marker date="1416980398000" expanded="true" signature="1281:1352" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416980398000" expanded="true" signature="1371:1448" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416980398000" expanded="true" signature="1559:1609" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+            <marker date="1416980398000" expanded="true" signature="2590:3319" placeholder="SELECT DISTI..USER_ADMIN_REPORT_DETAILS..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_TERMINATE-SEARCH_UPDATE.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="527" selection-end="527" vertical-scroll-proportion="172.15384" vertical-offset="4680" max-vertical-offset="5321">
+          <folding>
+            <marker date="1416974736000" expanded="true" signature="2279:2498" placeholder="SELECT DATE_..USER_ACCESS..." />
+            <marker date="1416974736000" expanded="true" signature="2376:2479" placeholder="select MAX(U..USER_ACCESS..." />
+            <marker date="1416974736000" expanded="true" signature="2911:3132" placeholder="SELECT DATE_..USER_ACCESS..." />
+            <marker date="1416974736000" expanded="true" signature="3006:3113" placeholder="select MAX(U..USER_ACCESS..." />
+            <marker date="1416974736000" expanded="true" signature="4948:5019" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416974736000" expanded="true" signature="5050:5127" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1416974736000" expanded="true" signature="5538:5592" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974736000" expanded="true" signature="5757:5811" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974736000" expanded="true" signature="5977:6031" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974736000" expanded="true" signature="6533:6598" placeholder="select ULD_I..USER_LOGIN_DETAILS..." />
+            <marker date="1416974736000" expanded="true" signature="6764:6819" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974736000" expanded="true" signature="7006:7056" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+            <marker date="1416974736000" expanded="true" signature="9209:9263" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+            <marker date="1416974736000" expanded="true" signature="9765:9830" placeholder="select ULD_I..USER_LOGIN_DETAILS..." />
+            <marker date="1416974736000" expanded="true" signature="9996:10051" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YESTERDAY_REPORT_MAIL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="19" selection-start="5985" selection-end="5985" vertical-scroll-proportion="0.0" vertical-offset="1861" max-vertical-offset="2363">
+        <state line="124" column="19" selection-start="5985" selection-end="5985" vertical-scroll-proportion="-64.84615" vertical-offset="422" max-vertical-offset="2363">
           <folding>
             <marker date="1416980488000" expanded="true" signature="1190:1261" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
             <marker date="1416980488000" expanded="true" signature="1280:1357" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
@@ -655,20 +736,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/REMAINDER_MAIL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="974" max-vertical-offset="1343">
-          <folding>
-            <marker date="1414241890000" expanded="true" signature="1246:1317" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
-            <marker date="1414241890000" expanded="true" signature="1336:1413" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
-            <marker date="1414241890000" expanded="true" signature="1702:1752" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DB_ACCESS_RIGHTS_ACCESS_RIGHTS-SEARCH_UPDATE.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="28" selection-start="4673" selection-end="4673" vertical-scroll-proportion="-1.9245284" vertical-offset="2295" max-vertical-offset="11373">
+        <state line="105" column="28" selection-start="4673" selection-end="4673" vertical-scroll-proportion="348.34616" vertical-offset="10842" max-vertical-offset="11373">
           <folding>
             <marker date="1416974686000" expanded="true" signature="736:797" placeholder="select * fro..USER_LOGIN_DETAILS..." />
             <marker date="1416974686000" expanded="true" signature="1093:1137" placeholder="SELECT * FRO..ROLE_CREATION..." />
@@ -696,6 +766,19 @@
             <marker date="1416974686000" expanded="true" signature="22761:22880" placeholder="select * fro..BASIC_MENU_PROFILE..." />
             <marker date="1416974686000" expanded="true" signature="27178:27233" placeholder="SELECT * FRO..USER_RIGHTS_CONFIGURATION..." />
             <marker date="1416974686000" expanded="true" signature="30918:31090" placeholder="SELECT DISTI..MENU_PROFILE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABSENT_MAIL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="4" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.8811189" vertical-offset="1346" max-vertical-offset="1717">
+          <folding>
+            <marker date="1418014931201" expanded="true" signature="1339:1410" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1418014931201" expanded="true" signature="1429:1506" placeholder="SELECT * FRO..VW_ACCESS_RIGHTS_TERMINATE_LOGINID..." />
+            <marker date="1418014931201" expanded="true" signature="1795:1845" placeholder="SELECT * FRO..EMAIL_TEMPLATE_DETAILS..." />
+            <marker date="1418014931201" expanded="true" signature="2729:2782" placeholder="select * fro..$temp_table_name ORDER..." />
+            <marker date="1418014931201" expanded="true" signature="4225:4252" placeholder="DROP TABLE $..." />
           </folding>
         </state>
       </provider>
