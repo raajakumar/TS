@@ -84,7 +84,6 @@ if($Current_day!='Sunday'){
         }
         $drop_query="DROP TABLE $temp_table_name ";
         mysqli_query($con,$drop_query);
-
-    }
+       }
     }
 }
